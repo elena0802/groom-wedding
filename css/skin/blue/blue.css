@@ -300,10 +300,10 @@ form .btn-primary.active,
 /* 14.7.1 Gift for Groom                         */
 /* ----------------------------------------------*/
 .accordion1{ 
-	background-color: #e7edf2;
+	background-color: #d6e1e9;
 	color: #395a8c;
 	border-width: 0.5px;
-	border-color:#ced9e4;
+	border-color:#b5c8d7;
 }
 
 .accordion1:after{
@@ -311,12 +311,12 @@ form .btn-primary.active,
 }
 
 .panel1{
-	background-color: #f4f7f9;
-	border: 0.5px solid #dbe3eb;
+	background-color: #e7edf2;
+	border: 0.5px solid #b5c8d7;
 }
 
 hr.line-groom{
-	border: 0.5px dashed #dee3e8;
+	border: 0.5px dashed #b5c8d7;
 	margin: 0px;
 }
 
@@ -324,10 +324,10 @@ hr.line-groom{
 /* 14.7.1 Gift for Bride                         */
 /* ----------------------------------------------*/
 .accordion2 {
-	background-color: #f2e7e7;
+	background-color: #e9d6d8;
 	color: #af4d5d;
 	border-width: 0.5px;
-	border-color: #e4cece;
+	border-color: #d7b5b8;
 }
 
 .accordion2::after{
@@ -335,12 +335,12 @@ hr.line-groom{
 }
 
 .panel2{
-	background-color: #f9f4f4;
-	border: 0.5px solid #ebdbdb;
+	background-color: #f2e7e8;
+	border: 0.5px solid #d7b5b8;
 }
 
 hr.line-bride{
-	border: 0.5px dashed #e8dede; 
+	border: 0.5px dashed #d7b5b8; 
 	margin: 0px;
 }
 
