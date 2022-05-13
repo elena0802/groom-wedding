@@ -1494,7 +1494,7 @@ hr.line-divider{
 	/*background-color:#e1dddd;*/
 	color: #e8dede;
 	background-color: #e8dede;
-	margin:50px 0px;
+	margin-top: 40px;
 }
 
 /* 07.2.9 HEART DIVIDER							 */
@@ -1726,13 +1726,16 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
 #popup-template{
-	width:100%;
-	margin:0px auto; 
+	width:900px;
+	margin:30px auto; 
 	background-color:#f8f7f5;
+	overflow: auto;
+	height: 700px;
 }
 
 #popup-template #main-image{
-	height:485px;
+	height:400px;
+	/* height: 485px*/
 	width:100%;
 	position:relative;
 }
@@ -1742,13 +1745,15 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	bottom:0; 
 	color:#FFF; 
 	text-align:center; 
-	padding:0 50px;
+	/*padding:0 50px;*/
+	padding: 0 10px;
 	margin:0 auto;
 	width:100%;
 }
 
 #popup-template #the-content{
 	padding:50px 75px;
+	margin-bottom: 10px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -1758,7 +1763,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 #popup-template #the-content img{
 	width:100%;
-	margin:10px 0
+}
+
+#popup-template .story-qna h3{
+	font-size: 24px;
 }
 
 /*-----------------------------------------------*/
@@ -2623,22 +2631,20 @@ form .has-error .btn-primary{
 	margin-bottom: 40px;
 }
 
-#popup-template .section-title h2{
-	font-size: 28px;
+.story-qna{
+	margin: 40px 0px;
 }
 
-.story-qna{
-	margin-bottom: 30px;
+.qna-title{
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .story-qna p{
 	margin-bottom: 15px;
 	color: #6a6a6a;
 	font-family: 'MaruBuri', serif;
-}
-
-.qna-title{
-	font-family: 'MaruBuriSemiBold', serif;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .test{
@@ -3884,7 +3890,10 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-
+#popup-template{
+	width:90%;
+	height: 550px;
+}
     
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
@@ -4217,13 +4226,16 @@ p{
 /* ----------------------------------------------*/
 /* POPUP TEMPLATE						 */
 /* ----------------------------------------------*/	
+/*#popup-template #the-content{
+	padding:35px 20px;
+}*/
 
-#popup-template #the-content{
-	padding:35px 30px;
+#popup-template .story-qna h3{
+	font-size: 20px;
 }
 
-#popup-template .section-title h2{
-	font-size: 24px;
+.story-qna{
+	margin: 30px 0px;
 }
 
 /* ----------------------------------------------*/
@@ -4395,6 +4407,10 @@ p{
 	font-size: 14px;
 }
 
+hr.line-divider{
+	margin: 30px 0px;
+}
+
 /* 06.5.6 Save The Date Title */	
 /* ----------------------------------------------*/	
 #invited{
@@ -4468,20 +4484,29 @@ p{
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template{
-	width:100%;
-}
 
 #popup-template #the-content{
-	padding:30px 20px;
+	padding-right:25px;
+	padding-left:25px;
 }
+
+/*#popup-template p{
+	padding-left: 10px;
+	padding-right: 10px;
+}*/
 
 #popup-template .section-title{
 	margin-bottom: 30px;
 }
 
-#popup-template .section-title h2{
-	font-size: 20px;
+#popup-template .story-qna h3{
+	font-size: 16px;
+}
+
+#popup-template #main-image{
+	height: 300px;
+	background-position: 50% 90%;
+	
 }
 
     
@@ -5062,7 +5087,7 @@ h2#dont-miss-it-title{
 /* 14.3 Our Story Section & POPUP TEMPLATE						 */
 /* ----------------------------------------------*/
 
-#our-story h3{
+.qna-title{
 	font-size: 14px;
 }
 
@@ -5070,9 +5095,19 @@ h2#dont-miss-it-title{
     font-size: 16px;
 }
 
-#popup-template .section-title h2{
+#popup-template .story-qna h3{
 	font-size: 15px;
 }
+
+#popup-template #the-content{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/*#popup-template p{
+	padding-left: 5px;
+	padding-right: 5px;
+}*/
 
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
